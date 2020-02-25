@@ -54,7 +54,7 @@ def checkForNewGrades():
 def alarm(context):
     if checkForNewGrades():
         job = context.job
-        context.bot.send_message(job.context, text='Es sind neue Noten verfügbar!!!')
+        context.bot.send_message(job.context, text='Es sind neue Noten verfuegbar!!!')
 
 def timeout(update, context):
     global timeout
